@@ -47,6 +47,7 @@ Implements **role-based access**, **event CRUD**, **public event pages with RSVP
 
 ### 1. Clone & Install
 ```bash
-git clone https://github.com/amiti-sharma/eventease.git
-cd eventease
+git clone https://github.com/amitiii/event-management.git
+cd event-management
 npm i
+
