@@ -102,31 +102,7 @@ Public page: On an event card, Public page opens /event/[publicId].
 RSVP: On the public page, submit Name + Email; stored securely.
 
 Export CSV: Dashboard → Event card → Export CSV to download attendees-[publicId].csv.
-### Project Structure
 
-app/
-  api/
-    auth/[...nextauth]/route.ts   # Auth.js handlers
-    events/[id]/attendees.csv/... # CSV export (guarded)
-  dashboard/                       # Dashboard (guarded)
-    new/                           # Create event
-    edit/[id]/                     # Edit event
-  event/[publicId]/                # Public event page with RSVP
-  layout.tsx, page.tsx             # Shell & home listing
-components/
-  Footer.tsx
-lib/
-  auth.ts                          # Auth.js config (credentials)
-  prisma.ts                        # Prisma client
-  schemas.ts                       # Zod schemas
-prisma/
-  schema.prisma                    # DB schema (User, Event, RSVP)
-  seed.ts                          # Seed roles & sample event
-styles/
-  globals.css
-next.config.js
-tailwind.config.ts
-tsconfig.json
 ### Scripts
 ```bash
 npm run dev            # Start dev server
