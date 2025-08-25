@@ -8,7 +8,6 @@ Implements **role-based access**, **event CRUD**, **public event pages with RSVP
 ## 🔗 Repository
 
 - **GitHub:** https://github.com/amitiii/event-management
-- **Live URL (placeholder):** https://eventease.vercel.app
 
 ---
 
@@ -89,7 +88,6 @@ npm run dev
 Open: http://localhost:3000
 
 ### Sample Users (Seeded)
-Role	Email           	Password
 Admin	admin@eventease.dev	Admin@123
 Staff	staff@eventease.dev	Staff@123
 Owner	owner@eventease.dev	Owner@123
