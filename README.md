@@ -4,7 +4,7 @@ A professional event management web application built with **Next.js + TypeScrip
 Implements **role-based access**, **event CRUD**, **public event pages with RSVP capture**, **attendee CSV export**, robust validation, and a polished, responsive UI.
 
 ---
-Screenshot%202025-08-26%20044928.png
+LINK OF THE SCREENSHOT OF WEBAPP - https://github.com/amitiii/event-management/blob/main/Screenshot%202025-08-26%20044928.png
 
 ## 🔗 Repository
 
