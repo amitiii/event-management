@@ -1,0 +1,1 @@
+export default function Card(p:{children:React.ReactNode}){return <div className='card'>{p.children}</div>}
