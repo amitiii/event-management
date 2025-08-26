@@ -116,6 +116,8 @@ npm run prisma:seed    # Seed sample users + sample event
 ### Author
 
 Name: Amiti Sharma
+Github: https://github.com/amitiii
+Linkedin: https://www.linkedin.com/in/amiti-sharma-8b1157254/
 
 
 
